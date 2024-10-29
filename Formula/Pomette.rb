@@ -6,7 +6,7 @@ class Pomette < Formula
   license ""
 
   def install
-    bin.install "Pomette"
+    bin.install "Pomette", "Frameworks"
   end
 
   test do
